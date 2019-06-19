@@ -1,0 +1,6 @@
+.list-image {
+    display: block;
+}
+.list-image .item {
+    display: inline-block;
+}

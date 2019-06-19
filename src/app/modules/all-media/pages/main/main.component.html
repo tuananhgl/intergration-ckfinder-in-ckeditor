@@ -1,0 +1,5 @@
+<div class="list-image">
+    <div class="item" *ngFor="let item of listImages" (click)="returnFileUrl(item.url)">
+        <img [src]="item.thumbnailUrl" alt="">
+    </div>
+</div>
